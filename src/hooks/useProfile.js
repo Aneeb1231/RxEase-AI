@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:1000/api';
+const API_URL = 'https://easeaixbackend.onrender.com/api';
 
 const useProfile = () => {
   const [profile, setProfile] = useState(null);
